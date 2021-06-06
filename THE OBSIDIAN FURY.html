@@ -1,0 +1,116 @@
+<html>
+    <head>
+    <title>THE OBSIDIAN FURY</title>
+    <link rel="icon" href="numbers.jpg" sizes="any">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+    body
+    {
+        background-image: url(lol.jpg);
+        background-blend-mode: lighten;
+        background-position: center;
+        background-size: cover;
+    }
+    .btn1 {
+        position: absolute;
+        top:650px;
+        left:550px;
+  border: solid black;
+        border-radius: 2em;
+  background-color: aliceblue;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  align-self: center;
+}
+    .btn1:hover
+    {
+         box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+   .btn2:hover
+    {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+.btn2{
+        position: absolute;
+        top:650px;
+        left:865px;
+        border-radius: 2em; 
+        border: solid black;
+        background-color: aliceblue;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+        align-self: center;        
+}
+.btn1:hover 
+    {
+        background-color: cornsilk;
+    }
+.btn2:hover
+    {
+        background-color: cornsilk;
+    }
+.submit{
+    color: green;
+     align-items: center;
+    }
+        
+.reset{
+    color: dodgerblue;
+    align-items: center;
+    
+    }
+    input[type=text], input[type=email],input[type=contact],input[type=message] 
+  {
+  width: 28%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border: 2px solid #ccc;
+  }
+        </style>
+    </head>
+
+    <form name="f1" onsubmit="func()">
+
+        <center>
+        <font style="font-family: fantasy">     
+        <h1 style="color: white">NAME</h1>
+        <input type="text" name="Username" placeholder="Enter Name">
+        <br>
+            
+        <h1 style="color: white">EMAIL</h1>
+        <input type="email" name="email" placeholder="Enter Email">
+
+        <h1 style="color: white">PHONE NO.</h1>
+        <input type="contact" name="Username" placeholder="Enter Phone No.">
+        
+        <h1 style="color:white">MESSAGE</h1>
+        <input type="message" name="Username" placeholder="Enter Your Query/Complaint">
+          
+            </font>
+            </center>
+     <input type="reset" class="btn2">        
+    <input type="submit" class="btn1">
+    </form>
+    
+    <body>
+        
+       
+        <script>
+           function func()
+           {
+             var x=document.getElementsByName("email").value;
+             alert(x);
+            
+             }
+        </script>
+        
+        
+        
+    </body>
+    </html>

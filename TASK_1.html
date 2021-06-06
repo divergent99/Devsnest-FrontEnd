@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>TASK 1</title>
+        <script>
+            function f1()
+            {
+            var x=new Date();
+            var y=window.prompt(x);
+                w=y.toString();
+                z="thank you";
+                if(w == z)
+                    {
+                        document.write("YOU'RE WELCOME");
+                    }
+            }
+       function eval()
+	{
+		var x = parseInt(document.getElementById("value1").value);
+		var y = parseInt(document.getElementById("value2").value);
+		var z = document.getElementById("add");
+		var w= document.getElementById("sub");
+        var v=document.getElementById("div");
+        z.value = x + y;
+        w.value= x - y;
+        v.value= x / y;
+    }
+
+        </script>
+        </head>
+    <style>
+        .btn
+        {
+            border: 2px solid white;
+            border-radius: 2em;
+            font-size: 15px;
+            color: black;
+            width: 200px;
+            height: 60px;
+            padding:15px 15px;
+            text-align: center;
+        }
+        .btn:hover
+        {
+            background-color:lawngreen;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.19), 0px 6px 20px 0px rgba(0,0,0,0.20);
+        }
+    </style>
+    <body>
+        <Button class="btn" onclick="f1()">DISPLAY DATE</Button>
+        <br><br><br>
+
+        value1 = <input type="text" id="value1" name="value1" value=""/>
+        value2 = <input type="text" id="value2" name="value2" value=""/>
+        <br><br><br>
+        <Button class="btn" onclick="eval()">EVALUATE</Button>
+          SUM = <input type="text" id="add" name="add" value=""/>
+        <br><br><br>
+
+          DIFFERENCE = <input type="text" id="sub" name="sub" value=""/>
+        <br><br><br>
+
+          DIVISION = <input type="text" id="div" name="div" value=""/>
+    </body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCtype html>
+
+    <title>REGISTRATION FORM</title>
+<style>
+    table td,th
+    {
+        border: 3px solid white;
+        border-radius: 4em;
+        font-family: fantasy;
+        font-size: 18px;
+        color: white;
+        padding: 15px 20px;
+        font-family: fantasy;
+    }
+    tr:nth-child(even)
+    {
+        background-color:blueviolet;
+    }
+       tr:nth-child(odd)
+    {
+        background-color:crimson;
+    }
+    body
+    {
+        background-image: url(test.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 20px solid white;
+        border-color: white;
+        border-radius: 4em;
+    }
+    .btn1
+    {
+position: absolute;
+top:1670px;
+left:600px;
+border: solid black;
+border-radius: 2em;
+background-color: snow;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+display:list-item;
+align-self : center;
+        color: blueviolet;
+        font-family: fantasy;
+    }
+     .file
+    {
+     border: 2px solid white;
+     padding: 15px 28px;
+     font-family: fantasy;
+     font-size: 15px;
+     color: black;
+     border-radius: 4em;
+     cursor: pointer;
+    }
+    .file:hover
+    {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+        background-color:lightsalmon;
+    }
+.reset
+    {
+position: absolute;
+top:1670px;
+left:760px;
+border: solid black;
+border-radius: 2em;
+background-color: snow;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+display:list-item;
+align-self : center;
+color: blueviolet;
+font-family: fantasy;
+    }
+        .btn1:hover
+    {
+         box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .btn1:hover
+    {
+        background-color: cornsilk;
+    }
+     .reset:hover
+    {
+         box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .reset:hover
+    {
+        background-color: cornsilk;
+    }
+    input[type=name],[type=surname],[type=email],[type=Phno],[type=Pc],[type=State],[type=City],[type=Country]
+    {
+        padding: 10px 58px;
+        border: 2px solid black;
+        font-family: fantasy;
+        font-size: 20px;
+        border-radius: 2em;
+        background-color:snow;
+        text-align: left;
+    }
+    input[type=date]
+    {
+        padding: 10px 58px;
+        border: 2px solid black;
+        font-family: fantasy;
+        font-size: 18px;
+        border-radius: 2em;
+        background-color:snow;
+        text-align: left;
+        width: 320px;
+    }
+    input[type=]
+    {
+        padding: 10px 58px;
+        border: 2px solid black;
+        font-family: fantasy;
+        font-size: 18px;
+        border-radius: 2em;
+        background-color:snow;
+        text-align: left;
+        width: 320px;
+    }
+    input[type=addr]
+    {
+        padding: 10px 58px;
+        border: 2px solid black;
+        font-family: fantasy;
+        font-size: 18px;
+        border-radius: 2em;
+        background-color:snow;
+        text-align:center;
+        width: 390px;
+        height: 120px;
+    }
+     input[type=extra]
+    {
+        padding: 10px 58px;
+        border: 2px solid black;
+        font-family: fantasy;
+        font-size: 18px;
+        border-radius: 2em;
+        background-color:snow;
+        text-align:center;
+        width: 300px;
+
+    }
+
+ label
+    {
+        text-align: center;
+     display: inline-block;
+        width: 340px;
+
+    }
+    label2
+    {
+        text-align: center;
+        display: inline-block;
+         width: 800px;
+    }
+       }
+
+    </style>
+    <body>
+        <center>
+        <font style="color: yellow">
+        <h1 style="font-family: fantasy"> REGISTRATION FORM</h1>
+            </font>
+            </center>
+            <form action="/">
+
+
+
+            <font style="font-size: 28px">
+            <font style="color: white">
+            <font style="font-family: fantasy">
+
+
+                    <label>FIRST NAME</label>
+                <input type="name" name="name" placeholder="Enter Name">(max 30 characters a-z and A-Z)
+                <br><br>
+                    <label>LAST NAME</label>
+                <input type="surname" name="sname" placeholder="Enter Last Name" >(max 30 characters a-z and A-Z)
+
+                <br><br>
+
+                    <label>DATE OF BIRTH</label>
+                    <input type="date" name="sname" placeholder="Enter Last Name">
+                <br><br>
+
+                <label>EMAIL ID</label>
+                <input type="email" name="emailid" placeholder="Enter Email ID">
+
+                  <br><br>
+
+                <label>PHONE NO.</label>
+                <input type="Phno" name="pno" placeholder="Enter Phone No.">(10 digit number)
+
+
+                <br><br>
+
+                <label>GENDER</label>
+
+
+                MALE
+                <input type="radio" name="male">
+
+                FEMALE
+                <input type="radio" name="female">
+
+                 <br><br>
+
+                <label>ADDRESS</label>
+                <input type="Addr" name="addr" placeholder="Enter Address">
+                <br><br>
+
+                 <label>CITY</label>
+                 <input type="City" name="city" placeholder="Enter City Name">(max 30 characters a-z and A-Z)
+                <br><br>
+
+                 <label>PINCODE</label>
+                <input type="Pc" name="pincode" placeholder="Enter Pincode">(6 digit number)
+                <br><br>
+
+                 <label>STATE</label>
+                <input type="State" name="state" placeholder="Enter State Name">(max 30 characters a-z and A-Z)
+                <br><br>
+
+                  <label>COUNTRY</label>
+                <input type="Country" name="country" placeholder="Enter Country Name">
+                <br><br>
+
+                <label>HOBBIES</label>
+                DRAWING
+                <input type="checkbox" name="Drawing">
+                Singing
+                <input type="checkbox" name="Singing">
+                Dancing
+                <input type="checkbox" name="Dancing">
+                Sketching
+                <input type="checkbox" name="Sketching">
+                <br>
+                <label2>
+                OTHERS
+                <input type="checkbox" name="Others">
+                </label2>
+                <br>
+
+                <label></label>
+                <input type="extra" name="extrafield" placeholder="Enter What Is Not Listed">
+                <br><br>
+                <label>
+                    QUALIFICATIONS</label>
+                <center>
+                <table>
+                <tr>
+                    <th>S.NO</th>
+                    <th>EXAMINATION</th>
+                    <th>BOARD</th>
+                    <th>PERCENTAGE</th>
+                    <th>YEAR OF PASSING</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                    <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    </tr>
+                </table>
+                </center>
+                 <br>
+                <label>COURSES APPLIED FOR</label>
+                BCA
+                <input type="radio" name="BCA">
+                B.Com
+                <input type="radio" name="B.Com">
+                B.Sc
+                <input type="radio" name="B.Sc">
+                B.A
+                <input type="radio" name="B.A">
+                <br>
+
+                </font>
+                </font>
+                </font>
+
+
+        <button class="btn1">SUBMIT</button>
+
+        <button class="reset">RESET</button>
+
+                </form>
+
+
+    </body>
+</html>
