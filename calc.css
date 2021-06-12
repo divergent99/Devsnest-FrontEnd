@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background:url("scene.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+   backdrop-filter: blur(2px);
+}
+.calculator
+{
+    position: relative;
+    display: grid;
+    box-shadow: 5px 5px 10px 5px #0a0a0a;
+    
+}
+
+.calculator .value
+{
+    grid-column: span 4;
+    height:100px;
+    text-align: right;
+    border:none;
+    outline: none;
+    padding:10px;
+    font-size: 18px;
+}
+
+.calculator span
+{
+    
+    display: grid;
+    border-radius: 5%;
+    width:60px;
+    height:60px;
+    color:rgb(245, 236, 236);
+    /*background: #171811;*/
+    background:url("nice.jpg");
+    background-size: 100%;
+    opacity: 0.9;
+    place-items: center;
+    border : 1px solid rgba(0,0,0,0.1);
+}
+
+.calculator span:active
+{
+    background: #74ff3b;
+    color:#fff;
+}
+
+.calculator span.clear
+{
+    grid-column: span 2;
+    width:120px;
+    background: #ff7a59;
+    border-radius: 5%;
+}
+
+.calculator span.plus
+{
+    grid-row: span 2;
+    height : 120px;
+}
+
+.calculator span.equal
+{
+    background: #03b1ff;
+    border-radius: 5%;
+}
