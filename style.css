@@ -1,0 +1,36 @@
+
+body
+{
+    background:url("orsrc21889.jpg");
+    backdrop-filter: blur(10px);
+    background-position: center;
+}
+.grid-container {
+    display: grid;
+    position:absolute;
+    top:200px;
+    left: 530px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #921faf;
+    grid-gap: 5px;
+    padding: 10px;
+    height: 350px;
+    width: 400px;
+    box-shadow: 5px 10px #0c0c0c;
+  }
+ .boxclicked
+ {
+   background-color: rgb(248, 246, 250);
+ }
+  .griditem {
+    background-color: rgba(241, 205, 205, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .griditem:hover
+  {
+    background-color:rgb(243, 161, 243);
+  }
