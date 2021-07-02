@@ -6,7 +6,7 @@
 body
 {
     height :100vh;
-    background-image: url("autobots.jpg");
+    background-image: url("./autobots.jpg");
     display: flex;
     
 }
