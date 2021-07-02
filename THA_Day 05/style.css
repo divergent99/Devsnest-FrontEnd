@@ -13,7 +13,7 @@ body
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   background:url("scene.jpg");
+   background:url("./scene.jpg");
    background-repeat: no-repeat;
    background-size: 100%;
    background-position: center;
@@ -47,7 +47,7 @@ body
     height:60px;
     color:rgb(245, 236, 236);
     /*background: #171811;*/
-    background:url("nice.jpg");
+    background:url("./nice.jpg");
     background-size: 100%;
     opacity: 0.9;
     place-items: center;
