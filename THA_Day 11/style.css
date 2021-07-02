@@ -20,7 +20,7 @@ body
     height: 140vh;
     --hue : var(--hue-neutral);
     background-color: hsl(var(--hue),100%,20%); 
-    background-image: url(valorant.jpg); 
+    background-image: url(./valorant.jpg); 
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
