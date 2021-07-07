@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THA_Day 14</title>
+</head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class="container">
+    
+<h1 class="header">The onclick Event</h1>
+<p class="subtext">1. The onclick event is used to trigger a function when an element is clicked on.</p>
+<p class="subtext">2. Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+<button class ="btn" onclick="myFunction1()">Click me</button>
+<p id="demo1"></p>
+</div>
+
+<div class="container2">
+    <h1 class="header">The onblur Event</h1>
+    Enter your name: <input class="input" type="text" id="fname" onblur="myFunction2()">
+
+<p class="subtext2">When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+    </div>
+
+
+    <div class="container3">
+        <h1 style="color: black; font-size: 30px;">The drag Event</h1>
+        <p ondragstart="dragStart(event)" draggable="true" id="dragtarget">Drag me into the rectangle!</p>
+    
+    <div id="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+    
+    <p><strong>Note:</strong> drag events are not supported in Internet Explorer 8 and earlier versions or Safari 5.1 and earlier versions.</p>
+    
+    <p id="demo2"></p>
+        </div>
+    
+    
+    
+    <div class="container4">
+        <h1 style="color: black; font-size: 30px;">The oninput Event</h1>
+        <p>Write something in the text field to trigger a function.</p>
+    
+    <input class="input" type="text" id="myInput" oninput="myFunction3()">
+    
+    <p id="demo3"></p>
+        </div>
+        
+</body>
+</html>
