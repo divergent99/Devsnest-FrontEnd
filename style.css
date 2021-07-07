@@ -1,0 +1,24 @@
+#map
+{
+    width: 550px;
+    height: 550px;
+    border: 2px solid white;
+    border-radius: 2em;
+    box-shadow: 7px 7px black;
+    position: absolute;
+    left:500px;
+    top:90px;
+}
+.header
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+body
+{
+    background-image: url(google.jpg);
+    background-position: center;
+    background-size: 100%;
+}
